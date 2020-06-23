@@ -1,9 +1,11 @@
 # rails_tutorial
+
 Ruby on Rails 勉強用リポジトリ
 
-## rails 6系 環境構築
+## rails 6 系 環境構築
+
 参考
-https://qiita.com/tana18/items/203122272fdb730e7383- 
+https://qiita.com/tana18/items/203122272fdb730e7383
 
 - プロジェクト用ディレクトリを作成
 
@@ -15,7 +17,7 @@ cd プロジェクト名
 
 ```
 
-- gemfileの生成
+- gemfile の生成
 
 ```
 bundle init
@@ -33,13 +35,13 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 # gem "rails"  ←この行のコメントを外す
 ```
 
-- gemファイルのインストール
+- gem ファイルのインストール
 
 ```
 bundle install --path vendor/bundle
 ```
 
-- railsプロジェクトの作成
+- rails プロジェクトの作成
 
 ```
 bundle exec rails new .
@@ -54,4 +56,4 @@ bundle exec rails new .
 bundle exec rails s
 ```
 
-localhost:3000で接続できる
+localhost:3000 で接続できる
